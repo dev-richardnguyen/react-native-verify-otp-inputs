@@ -1,20 +1,3 @@
-# react-native-verify-otp-inputs
-
-react-native-verify-otp is a tiny Javascript library which provides an elegant UI for the end user to input OTP
-
-## Installation
-
-```sh
-yarn add react-native-verify-otp-inputs
-```
-
-## Usage
-
-```js
-import { OTPInput } from 'react-native-verify-otp-inputs';
-
-// ...
-
 import * as React from 'react';
 
 import { StyleSheet, View, Alert } from 'react-native';
@@ -52,23 +35,3 @@ const styles = StyleSheet.create({
     color: 'gray',
   },
 });
-
-```
-
-## Parameters
-Parameter | required | Description |
---- | --- | --- |
-onSubmit | YES | Callback when input digits are done | 
-pinCount | NO | Number of digits in the component (**default** is 4) |
-boxSelectedStyle | NO | The style of the input field which is focused |
-boxStyle | NO | The style of the input field which is NOT focused |
-digitStyle | NO | The style of the digit |
-boxContainerStyle | NO | The style of container |
-
-
-## License
-
-MIT
-
----
-
