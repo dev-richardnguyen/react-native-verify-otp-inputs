@@ -1,6 +1,6 @@
 {
   "name": "react-native-verify-otp-inputs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "react-native-verify-otp is a tiny Javascript library which provides an elegant UI for the end user to input OTP",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -42,7 +42,11 @@
     "android",
     "otp-inputs",
     "inputs",
-    "otp"
+    "otp",
+    "react-native-verify-otp-inputs",
+    "react-native-verify-otp",
+    "react-native-otp",
+    "react-native-otp-inputs"
   ],
   "repository": "https://github.com/dev-richardnguyen/react-native-verify-otp-inputs",
   "author": "Richard Nguyen <dev.richard.nguyen@gmail.com> (https://github.com/dev-richardnguyen)",

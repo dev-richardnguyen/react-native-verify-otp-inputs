@@ -17,11 +17,12 @@ import {
 
 export const OTPInput = ({
   onSubmit,
-  pinCount = 4,
+  pinCount = 6,
   boxSelectedStyle,
   boxStyle,
   digitStyle,
   boxContainerStyle,
+  variant = 'default',
 }: IOTPInput) => {
   const [code, setCode] = useState(initCode(pinCount));
   const [idxFocusing, setIdxFocusing] = useState(0);
@@ -116,6 +117,7 @@ export const OTPInput = ({
                 boxSelectedStyle,
                 boxStyle,
                 digitStyle,
+                variant,
               }}
             />
           );

@@ -1,4 +1,5 @@
 import { ViewStyle } from 'react-native';
+import { IVariant } from '../otp-input/types';
 
 export interface IBoxDigitProps {
   isValueFocused: boolean;
@@ -8,4 +9,5 @@ export interface IBoxDigitProps {
   boxSelectedStyle?: ViewStyle;
   boxStyle?: ViewStyle;
   digitStyle?: ViewStyle;
+  variant: IVariant;
 }

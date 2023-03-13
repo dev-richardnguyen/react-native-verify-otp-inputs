@@ -6,7 +6,7 @@ import { OTPInput } from 'react-native-verify-otp-inputs';
 export default function App() {
   return (
     <View style={styles.container}>
-      <OTPInput
+      {/* <OTPInput
         onSubmit={(otp: string) => {
           Alert.alert('Done!', otp);
         }}
@@ -14,6 +14,23 @@ export default function App() {
         boxSelectedStyle={styles.boxSelectedStyle}
         boxStyle={styles.boxStyle}
         digitStyle={styles.digitStyle}
+      /> */}
+      {/* <OTPInput
+        onSubmit={(otp: string) => {
+          Alert.alert('Done!', otp);
+        }}
+        pinCount={6}
+        digitStyle={styles.digitStyle}
+        variant="security"
+      /> */}
+      <OTPInput
+        onSubmit={(otp: string) => {
+          Alert.alert('Done!', otp);
+        }}
+        pinCount={6}
+        boxSelectedStyle={styles.boxSelectedStyle}
+        digitStyle={styles.digitStyle}
+        variant="underlined"
       />
     </View>
   );
@@ -26,7 +43,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   boxSelectedStyle: {
-    backgroundColor: 'red',
+    borderColor: 'blue',
   },
   boxStyle: {
     borderRadius: 8,

@@ -31,6 +31,7 @@ export default function App() {
         boxSelectedStyle={styles.boxSelectedStyle}
         boxStyle={styles.boxStyle}
         digitStyle={styles.digitStyle}
+        variant="underlined"
       />
     </View>
   );
@@ -59,7 +60,7 @@ const styles = StyleSheet.create({
 Parameter | required | Description |
 --- | --- | --- |
 onSubmit | YES | Callback when input digits are done | 
-pinCount | NO | Number of digits in the component (**default** is 4) |
+pinCount | NO | Number of digits in the component (**default** is 6) |
 boxSelectedStyle | NO | The style of the input field which is focused |
 boxStyle | NO | The style of the input field which is NOT focused |
 digitStyle | NO | The style of the digit |
